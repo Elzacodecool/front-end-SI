@@ -35,10 +35,6 @@ header .active {
 }
 
 
-.content {
-    clear: both;
-}
-
 aside {
     float: left;
     margin: 0 1.5%;
@@ -51,7 +47,8 @@ section {
     width: 63%;
 }
 
-.whitebox {
+.content {
+    clear: both;
     background-color: whitesmoke;
     margin: 0 1.5%;
     padding: 4%;
