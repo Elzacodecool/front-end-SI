@@ -13,7 +13,7 @@ header ul {
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
-    background-color: #f1f1f1;
+    background-color: #cfcfcf;
     visibility: visible;
 }
 
@@ -47,20 +47,25 @@ aside {
 }
 
 section {
-    background-color: white;
     float: right;
+    width: 63%;
+}
+
+.whitebox {
+    background-color: whitesmoke;
     margin: 0 1.5%;
     padding: 4%;
-    width: 63%;
+    box-shadow: 5px 10px 10px #888888;
 }
   
 
 footer {
     clear: both;
     position: relative;
-    width: 100%;
+    width: auto;
     bottom: 0;
     padding-top: 20px;
+    margin-left: 10px;
 }
 
 #startphoto {
@@ -100,6 +105,7 @@ h1 {
     color: blue;
     font-family: verdana;
     font-size: 300%;
+    text-align: center;
 }
 p  {
     color: grey;
