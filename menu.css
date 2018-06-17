@@ -5,7 +5,54 @@
     justify-content: space-around;
 }
 
+
+
 .menu ul {
 
     list-style-type: none;
+}
+
+
+.aside {
+    float: left;
+    width: 20%;
+}
+
+
+.meals {
+    float: right;
+    width: 79%;
+    border-left: solid black;
+    border-left-width: 1%;
+}
+
+
+.meals #name {
+    display: inline;
+}
+
+
+.meals #price {
+    display: inline;
+    margin-left: 10px;
+}
+
+.meals #description {
+    margin-top: 10px;
+}
+
+
+/* for small screen */
+@media all and (max-width: 600px) {
+    .menu {
+        flex-flow: column;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .meals {
+        width: 100%;
+    }
 }

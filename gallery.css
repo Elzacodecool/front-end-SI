@@ -5,14 +5,17 @@ div.polaroid {
     margin-bottom: 25px;
 }
 
+
 div.polaroid img {
     width: 100%;
 }
+
   
 div.container {
     text-align: center;
     padding: 10px 20px;
 }
+
 
 .photos {
     display: flex;
